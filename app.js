@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
     setTimeout(() => {
         console.log('Hello, World after 10 seconds');
         res.send('Hello, World after 10 seconds delay!');
-    }, 10000); // 10000 milliseconds = 10 seconds
+    }, 5); // 10000 milliseconds = 10 seconds
 });
 
 app.listen(port, () => {
